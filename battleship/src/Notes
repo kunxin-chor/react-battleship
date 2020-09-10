@@ -1,0 +1,31 @@
+
+    vertOrHori = () {
+        let rand_num = 0;
+        rand_num = Math.floor(Math.random()*100) + 1;
+        if(rand_num <= 50){
+            this.setState{
+                vert: 1
+            }
+        }
+        else{
+            this.setState{
+                hori: 1
+            }
+        }
+    }
+    
+    
+    
+    updateFormationB = () => {
+        this.vertOrHori();
+        if(this.state.vert == 1){
+            
+        }
+    }
+
+  for(i = 1; i <= fleetB[1] - 1; i++){
+      if(arr[r][c - i] == ''){
+          this.state.west++
+      }
+  }
+
